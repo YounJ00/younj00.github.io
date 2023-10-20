@@ -40,7 +40,7 @@ image:
 <b>[common sense media](https://www.commonsensemedia.org/)</b> > Movies > Best Movie Lists > Latin American Academy Award Winners and Nomineess
 
 
-![image](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/e458d7a0-c6bb-485f-a9a0-39ee30463022)
+![1](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/f5a4c9bb-be39-448a-b73e-ae9bc79ad9ef)
 
 ### ✔ 실습
 
@@ -63,14 +63,14 @@ image:
 -----------------------------------------------
 <script src="https://gist.github.com/YounJ00/d7e4693615f1113ab5c7e43daeae929b.js"></script>
 
-![image](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/ffce2243-8397-4d35-acf3-1691877372f9)
+![2](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/f54ea157-9886-4d20-ac4e-5071204be596)
 
 그냥 soup을 출력하게 되면 위처럼 페이지의 **전체 html 소스**를 가져온다.<br>
 그래서 **find_all()함수**를 사용하여 **특정 태그의 html 소스**를 받아온다.<br>
 
 나는 영화 제목을 가져오고 싶기 때문에 영화 제목에서 검사를 해주었다.
 
-![Latin American Academy Award Winners and Nominees _ Common Sense Media - Chrome 2023-09-25 오후 3_41_37](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/72c151a5-0ffa-4e33-8095-495e8b89495b)
+![3](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/d4b2eb47-6a80-4412-bd10-00e00e2f8aa8)
 
 ### ✔ 원하는 값의 element 복사
 **복사 경로 : 내가 가져오고 싶은 값 우클릭 > 검사 > 선택된 html 소스 우클릭 > Copy > Copy element**
@@ -84,7 +84,7 @@ image:
 ```
 위에 복사된 element 를 보면 **class가 "review-title" 인 h3** 태그에 영화 제목이 들어가 있는 것을 확인할 수 있다.
 
-![image](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/1df2e00b-369b-48a4-a6cb-8fa5640f2f28)
+![4](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/cc5bc068-ea29-4c23-9a10-50c50742ad17)
 
 -----------------------------------------------
 하지만 우리는 영화 제목이 있는 태그의 html 소스를 가져오기 보다는 영화 제목만을 가져와야하기 때문에 **h3 > a 태그의 텍스트**를 찾아야 한다.<br>
@@ -93,20 +93,20 @@ image:
 
 <script src="https://gist.github.com/YounJ00/fdad31cee70da8b75357ab8e4b62d385.js"></script>
 
-<img width="550" alt="실행 gif" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/6f4c3d96-5c09-476a-9715-6509f792e36b">
+<img width="550" alt="" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/5de2530b-2b45-4240-93a4-adc8f1c927dd">
 
 -----------------------------------------------
 크롤링을 통해 받아온 데이터를 **list**에 추가하여 출력해줄 수 있다.
 <script src="https://gist.github.com/YounJ00/7c8a3cf24849e86ca7e92bfcbf58d677.js"></script>
 
-![image](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/b387ac3b-bbee-44f4-a0a5-7c0d18f95ede)
+![6](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/a4acffab-c3c9-4761-8c6e-b52c1a4c57c6)
 
 ## <span style="font-family:'GowunDodum-Regular'; font-weight:900; color:#3b5998;">동적 크롤링</span>
 ### ✔ 원하는 button의 XPath 복사
 복사 경로 : 이동을 원하는 버튼 우클릭 > 검사 > 코드 우클릭 > Copy > **Copy XPath**
 <br>
 
-![image](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/f591d939-83a0-413d-a3a5-950215e5363f)
+![7](https://github.com/YounJ00/YounJ00.github.io/assets/91127380/6d6d1f6e-b606-4c7c-aa82-0e7cefbf2404)
 
 **[복사한 XPath] :** <span style="font-family:'GowunDodum-Regular'; font-weight:900; color:#804da1;">//*[@id="review-teaser-82065"]/div[3]/a</span>
 ```python
@@ -115,4 +115,4 @@ driver.find_element(By.XPATH, r'//*[복사한 XPath]').click()
 
 <script src="https://gist.github.com/YounJ00/c77e6091be4b1d6b1b017debdaeaf47a.js"></script>
 
-<img width="550" alt="실행 gif" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/7bc9f07d-6714-4936-92d3-6922ea17db88">
+<img width="550" alt="" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/4aae7c1e-2dc3-42ef-a227-1eed3c3960eb">

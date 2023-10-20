@@ -92,7 +92,7 @@ npm install body-parser
 
 ### ✔ 파일 생성 및 정리
 
-<img width="185" alt="image" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/c7b95414-c6c4-4db8-b5db-dc31fbde4da9">
+<img width="185" alt="image" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/87df26d1-7aea-479b-a28e-8e60c64859f4">
 
 위는 기존 파일의 모습이다.
 여기서 개발에 필요한 폴더 및 파일을 생성해준다.
@@ -103,7 +103,7 @@ npm install body-parser
 - lib/sessionOption.js
 - server.js 파일
 
-<img width="190" alt="image" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/56694a1b-0d6a-44d4-b851-0cb9c9b97c34">
+<img width="190" alt="image" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/1ce4299a-8638-4b4f-85ee-e99a56477cee">
 
 
 위처럼 빨간펜 부분을 만들어주면 된다.
@@ -132,6 +132,6 @@ npm install body-parser
 
 ## 4. 실행
 
-<img width="370" alt="실행 gif" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/72a0d4a7-05b7-4c64-b0a6-bb4cffbd90d5">
+<img width="370" alt="실행 gif" src="https://github.com/YounJ00/YounJ00.github.io/assets/91127380/8f322595-66a7-4c50-85c4-1e404a484a25">
 
 완성!!😊
