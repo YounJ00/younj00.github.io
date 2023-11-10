@@ -3,7 +3,7 @@ title: 딥러닝 객체탐지 기술을 사용한 냉장고 관리 시스템
 # author: cotes
 date: 2023-11-10 00:00:00 +0800
 categories: [프로젝트 🎓, 학술제]
-tags: [Capston, React, Typescript]
+tags: [학술제 프로젝트]
 pin: true
 math: true
 mermaid: true

@@ -4,7 +4,7 @@ title: Gesture인식을 통한 IR 디바이스 제어용 무선 컨트롤러
 # author: cotes
 date: 2023-11-10 00:00:00 +0800
 categories: [프로젝트 🎓, 학술제]
-tags: [Capston, React, Typescript]
+tags: [학술제 프로젝트]
 pin: true
 math: true
 mermaid: true
