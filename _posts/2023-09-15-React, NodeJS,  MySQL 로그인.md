@@ -2,7 +2,7 @@
 title: React, NodeJS 와 MySQL 을 이용한 로그인/회원가입
 author: cotes
 date: 2023-09-15 11:33:00 +0800
-categories: [캡스톤디자인 🎓, 개발일지]
+categories: [프로젝트 🎓, 캡스톤디자인]
 tags: [Capston]
 pin: true
 math: true

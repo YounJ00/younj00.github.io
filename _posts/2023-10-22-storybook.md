@@ -2,7 +2,7 @@
 title: react 개발을 위한 Storybook 활용하기
 # author: cotes
 date: 2023-10-22 11:34:00 +0800
-categories: [캡스톤디자인 🎓, 개발일지]
+categories: [프로젝트 🎓, 캡스톤디자인]
 tags: [Capston, React]
 pin: true
 math: true

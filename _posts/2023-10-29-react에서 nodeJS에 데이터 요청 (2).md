@@ -2,7 +2,7 @@
 title: React 에서 Node.js 서버에 데이터 요청하기 (2)
 # author: cotes
 date: 2023-10-29 00:00:00 +0800
-categories: [캡스톤디자인 🎓, 개발일지]
+categories: [프로젝트 🎓, 캡스톤디자인]
 tags: [Capston, React, Typescript]
 pin: true
 math: true

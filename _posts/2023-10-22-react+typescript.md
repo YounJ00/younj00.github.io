@@ -2,7 +2,7 @@
 title: React + Typescript 프로젝트 생성하기
 # author: cotes
 date: 2023-10-22 11:33:00 +0800
-categories: [캡스톤디자인 🎓, 개발일지]
+categories: [프로젝트 🎓, 캡스톤디자인]
 tags: [Capston, React, Typescript]
 pin: true
 math: true
